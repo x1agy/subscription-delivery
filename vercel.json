@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/:token",
-      "destination": "/api/subscription"
+      "destination": "/api/subscription?token=:token"
     }
   ]
 }
